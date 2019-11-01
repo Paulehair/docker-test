@@ -40,7 +40,6 @@ services:
                         - "27017:27017"
                 networks: 
                         - webappnetwork
-                entrypoint: ["mongod", "--noauth"]
                 
 networks:
         webappnetwork:
